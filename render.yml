@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: my-python-web
+    env: docker
+    plan: free
+    dockerfilePath: ./Dockerfile
+    autoDeploy: true
